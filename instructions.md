@@ -24,7 +24,7 @@ In order to use it, you will need to have installed:
    (<mark>here I use example.Rmd/pdf, but remember to substitute it with YOUR_FILE.Rmd and YOUR_OUTPUT_FILE.pdf</mark>)
   
 ```
-pandoc example.Rmd -s -o example.pdf --template ggthesis
+pandoc example.Rmd -s -o example.pdf --template ggthesis --number-sections --bibliography library.bib
 ```
 
 
