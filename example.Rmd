@@ -13,7 +13,7 @@ toc: true
 bibliography: library.bib #don't forget to refer to your bib file
 biblio-title: References
 titlepage: true
-logo: logo.png #don't forget to refer to your logo file
+logo: logo.jpg #don't forget to refer to your logo file
 # csl: apa.csl
 link-citations: yes
 nocite: |
@@ -57,7 +57,7 @@ The aims of the present thesis is twofold: on the one hand, it aims to investiga
 Chatpter1 {#ch1}
 =========
 
-> With their simple tools and primitive materials, it might be said, Fielding did well and Jane Austen even better, but compare their opportunities with ours! Their masterpieces certainly have a strange air of simplicity. [@Woolf1921]
+> With their simple tools and primitive materials, it might be said, Fielding did well and Jane Austen even better, but compare their opportunities with ours! Their masterpieces certainly have a strange air of simplicity. [@Woolf1996]
 
 section 1 {#ch1_s1}
 ----------
