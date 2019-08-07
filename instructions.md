@@ -27,6 +27,12 @@ In order to use it, you will need to have installed:
 pandoc example.Rmd -s -o example.pdf --template ggthesis --number-sections --bibliography library.bib
 ```
 
+   If you would like to change font, you can add the following script to the abovementioned code, changing the font to your own needs:
+
+```
+ --pdf-engine=xelatex --variable="mainfont=Times New Roman" --variable="sansfont=Times New Roman"
+```
+
 
 
 
