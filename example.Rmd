@@ -1,0 +1,108 @@
+---
+title: Title
+subtitle: your subtitle
+author: "Author name"
+date: "month year"
+supervisor: name surname, name surname
+institute: The University of XXXXX
+department: School of XXXXXXX
+degree: Doctor of Philosophy
+lot: true
+lof: true
+toc: true
+bibliography: library.bib #don't forget to refer to your bib file
+biblio-title: References
+titlepage: true
+logo: logo.png #don't forget to refer to your logo file
+# csl: apa.csl
+link-citations: yes
+nocite: |
+  # any citation you want in the references which was not mentioned in the text
+abstract: |
+  your abstract here
+---
+
+Dedication {.unnumbered}
+==========
+
+I would like to dedicate this thesis to ....
+
+\newpage 
+
+
+Declaration {.unnumbered}
+=============
+
+I hereby declare that except where specific reference is made to the work of others, the contents of this dissertation are original and have not been submitted in whole or in part for consideration for any other degree or qualification in this, or any other university. This dissertation is my own work and contains nothing which is the outcome of work done in collaboration with others, except as specified in the text and Acknowledgements. This dissertation contains fewer than 100,000 words including appendices, bibliography, footnotes, tables and equations and has fewer than 150 figures.
+
+your signature
+
+\newpage 
+
+
+Acknowledgements {.unnumbered}
+===============
+
+I would like to thank...
+
+\newpage
+
+Introduction {#intro .unnumbered}
+============
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dolor sed viverra ipsum nunc aliquet bibendum enim. In massa tempor nec feugiat. Nunc aliquet bibendum enim facilisis gravida. Nisl nunc mi ipsum faucibus vitae aliquet nec ullamcorper. Amet luctus venenatis lectus magna fringilla. Volutpat maecenas volutpat blandit aliquam etiam erat velit scelerisque in. Egestas egestas fringilla phasellus faucibus scelerisque eleifend. Sagittis orci a scelerisque purus semper eget duis. Nulla pharetra diam sit amet nisl suscipit. Sed adipiscing diam donec adipiscing tristique risus nec feugiat in. Fusce ut placerat orci nulla. Pharetra vel turpis nunc eget lorem dolor. Tristique senectus et netus et malesuada
+
+The aims of the present thesis is twofold: on the one hand, it aims to investigate and examine how readers react to difficult literary texts; on the other, it intends to support and emphasise the importance of empirical approaches to the field of literature, presenting a multidisciplinary approach which brings together perspectives from psychology, linguistics and literary criticism.
+
+Chatpter1 {#ch1}
+=========
+
+> With their simple tools and primitive materials, it might be said, Fielding did well and Jane Austen even better, but compare their opportunities with ours! Their masterpieces certainly have a strange air of simplicity. [@Woolf1921]
+section 1 {#ch1_s1}
+----------
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dolor sed viverra ipsum nunc aliquet bibendum enim. In massa tempor nec feugiat. Nunc aliquet bibendum enim facilisis gravida. Nisl nunc mi ipsum faucibus vitae aliquet nec ullamcorper. Amet luctus venenatis lectus magna fringilla. Volutpat maecenas volutpat blandit aliquam etiam erat velit scelerisque in. Egestas egestas fringilla phasellus faucibus scelerisque eleifend. Sagittis orci a scelerisque purus semper eget duis. Nulla pharetra diam sit amet nisl suscipit. Sed adipiscing diam donec adipiscing tristique risus nec feugiat in. Fusce ut placerat orci nulla. Pharetra vel turpis nunc eget lorem dolor. Tristique senectus et netus et malesuada
+
+section 2{#ch1_s2}
+----------
+
+a table here
+
+| Tables        | Are           | Cool  |
+|---------------|:-------------:|------:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
+another table
+
+V1         Tweedledee       Tweedledum
+--------   --------------   ----------------
+Age        14               14
+Height     3'2"             3'2"
+Politics   Conservative     Conservative
+Religion   "New Age"        Syrian Orthodox
+---------  --------------   ----------------
+
+
+\newpage 
+
+Ch 3 Title {#ch3}
+==================
+
+> [...] quote orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dolor sed viverra ipsum nunc aliquet bibendum enim. In massa tempor nec feugiat. 
+
+Nunc aliquet bibendum enim facilisis gravida. Nisl nunc mi ipsum faucibus vitae aliquet nec ullamcorper. Amet luctus venenatis lectus magna fringilla. Volutpat maecenas volutpat blandit aliquam etiam erat velit scelerisque in. Egestas egestas fringilla phasellus faucibus scelerisque eleifend.
+orem ipsum dolor sit amet, [^1] consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dolor sed viverra ipsum nunc aliquet bibendum enim. In massa tempor nec feugiat. Nunc aliquet bibendum enim facilisis gravida. Nisl nunc mi ipsum faucibus vitae aliquet nec ullamcorper. Amet luctus venenatis lectus magna fringilla. Volutpat maecenas volutpat blandit aliquam etiam erat velit scelerisque in. Egestas egestas fringilla phasellus faucibus scelerisque eleifend. Sagittis orci a scelerisque purus semper eget duis. Nulla pharetra diam sit amet nisl suscipit. Sed adipiscing diam donec adipiscing tristique risus nec feugiat in. Fusce ut placerat orci nulla. Pharetra vel turpis nunc eget lorem dolor. Tristique senectus et netus et malesuada.
+
+Etiam tempor orci eu lobortis elementum nibh [^2] tellus molestie. Neque egestas congue quisque egestas. Egestas integer eget aliquet nibh praesent tristique. Vulputate mi sit amet mauris. Sodales neque sodales ut etiam sit. Dignissim suspendisse in est ante in. Volutpat commodo sed egestas egestas. Felis donec et odio pellentesque diam. Pharetra vel turpis nunc eget lorem  orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dolor sed 
+
+END of chapter 3
+
+\newpage
+
+# References
+
+
+[^1]: Footnote1
+[^2]: Fotnote 2
