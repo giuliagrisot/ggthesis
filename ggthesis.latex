@@ -98,7 +98,7 @@ $if(linestretch)$
 \setstretch{$linestretch$}
 $else$
 \usepackage{setspace}
-\setstretch{2}
+\setstretch{1.7}
 $endif$
 \usepackage{amssymb,amsmath}
 \usepackage{ifxetex,ifluatex}
@@ -240,7 +240,7 @@ $if(verbatim-in-note)$
 \VerbatimFootnotes % allow verbatim text in footnotes
 $endif$
 $if(geometry)$
-\usepackage[margin=2.5cm,includehead=true,includefoot=true,centering,$for(geometry)$$geometry$$sep$,$endfor$]{geometry}
+\usepackage[margin=3cm,includehead=true,includefoot=true,centering,$for(geometry)$$geometry$$sep$,$endfor$]{geometry}
 $else$
   $if(beamer)$
   $else$
@@ -488,7 +488,7 @@ $endif$
 \definecolor{caption-color}{HTML}{000000}
 $if(beamer)$
 $else$
-\usepackage[font={stretch=2}, textfont={color=caption-color}, position=top, skip=4mm, labelfont=bf, singlelinecheck=false, justification=$if(caption-justification)$$caption-justification$$else$raggedright$endif$]{caption}
+\usepackage[font={stretch=1.8}, textfont={color=caption-color}, position=top, skip=4mm, labelfont=bf, singlelinecheck=false, justification=$if(caption-justification)$$caption-justification$$else$raggedright$endif$]{caption}
 \setcapindent{0em}
 $endif$
 
@@ -745,7 +745,7 @@ $if(logo)$
 \noindent
 \includegraphics[width=$if(logo-width)$$logo-width$$else$120$endif$pt]{$logo$}
 $endif$
-\vskip 1em
+\vskip 1.5em
 {\Large \textsf{$for(author)$$author$$sep$, $endfor$}
 \vfill
 }
@@ -756,7 +756,7 @@ $endif$
 	\end{center}
 {\Large \textsf{$for(supervisor)$$supervisor$$sep$, $endfor$} \vfill
 }
-\vskip 1em
+\vskip 0.5em
 {\Large	\textsf{$for(department)$$department$$sep$, $endfor$}
 	\vfill
 }
@@ -838,10 +838,12 @@ $endif$
 $endif$
 $endif$
 $if(lot)$
+\newpage
 \listoftables
 $endif$
 $if(lof)$
 \listoffigures
+\newpage
 $endif$
 $if(linestretch)$
 \setstretch{$linestretch$}
